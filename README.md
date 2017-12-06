@@ -2,10 +2,10 @@ This container exposes port 2222, which is used for ssh in Azure Web App for Con
 
 ## How to run it locally
 ```
-git clone https://github.com/sakkuru/simple-ubuntu-ssh-container.git
-cd simple-ubuntu-ssh-container
+git clone https://github.com/sakkuru/Simple-Ubuntu-SSH-Container.git
+cd Simple-Ubuntu-SSH-Container/
 docker build . -t simple-container
-docker run --rm -t -i simple-container /bin/bash
+docker run --rm -it simple-container /bin/bash
 # cat /tmp/check.txt
 This is a simple container!
 ```
